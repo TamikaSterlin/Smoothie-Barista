@@ -1,0 +1,113 @@
+body {
+  padding-top: 30px;
+  background-image: url(img/blueberry.jpeg);
+  background-size: cover;
+  font-size: 62.5;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.page-header {
+  border-bottom: none;
+}
+
+.box {
+  border: 2px solid black;
+  width: 30%;
+  margin: 10px;
+  padding: 5px;
+  float: left;
+  background-color: rgb(55,72,80, .5)
+}
+
+
+p {
+  font-size: 2rem;
+  color: white;
+}
+
+.orderItem {
+  font-weight: bold;
+}
+
+img {
+  height: 200px;
+}
+
+.well {
+  background-color: white;
+}
+
+.orderTitles {
+  font-family: 'Zilla Slab Highlight', cursive;
+  text-align: center;
+}
+
+.title {
+  font-size: 5rem;
+}
+
+.option {
+  font-family: 'Chango', cursive;
+  color: white;
+  font-size: 2rem;
+}
+
+h2, h1, h3 {
+  font-family: 'Chango', cursive;
+  color: white;
+}
+
+li {
+  font-size: 2.5rem;
+  color: white;
+  list-style: square;
+  border-bottom: 1px solid black;
+}
+
+
+#trash {
+  font-weight: bold;
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+}
+
+.profile {
+  font-family: 'Chango', cursive;
+}
+h3, .profile {
+  font-size: 4rem;
+}
+
+.row {
+  padding-top: 25px;
+  border: 1px solid black;
+  background-color: rgb(2, 81, 42, .6);
+}
+
+.CashierContainer {
+  text-align: center;
+  display: inline;
+}
+
+.login {
+  color: white;
+}
+
+select {
+  height: 25px;
+}
+
+.submit {
+  margin: 20px;
+}
+
+.jumbotron {
+  margin: min(2rem, 2vw);
+  width: 50%;
+  background-color: rgb(238,141,5, .6);
+  border-radius: 10%;
+}
